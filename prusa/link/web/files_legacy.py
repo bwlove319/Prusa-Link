@@ -14,7 +14,7 @@ from poorwsgi.response import FileResponse, JSONResponse, Response
 from poorwsgi.results import hbytes
 from prusa.connect.printer import const
 from prusa.connect.printer.const import Source
-from prusa.connect.printer.metadata import FDMMetaData, get_metadata
+from gcode_metadata import FDMMetaData, get_metadata
 
 from .. import conditions
 from ..const import LOCAL_STORAGE_NAME, PATH_WAIT_TIMEOUT

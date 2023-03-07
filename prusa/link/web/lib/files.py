@@ -12,7 +12,7 @@ from poorwsgi.request import Request, Headers
 from prusa.connect.printer import Filesystem
 from prusa.connect.printer.const import Source, Event, State, \
     TransferType, GCODE_EXTENSIONS
-from prusa.connect.printer.metadata import FDMMetaData, get_metadata, \
+from gcode_metadata import FDMMetaData, get_metadata, \
     estimated_to_seconds
 from prusa.connect.printer.download import (Transfer, TransferRunningError,
                                             filename_too_long,

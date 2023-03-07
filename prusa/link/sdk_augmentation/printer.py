@@ -10,7 +10,7 @@ from prusa.connect.printer.command import Command
 from prusa.connect.printer.conditions import API, HTTP, CondState
 from prusa.connect.printer.const import Source
 from prusa.connect.printer.files import File
-from prusa.connect.printer.metadata import FDMMetaData
+from gcode_metadata import FDMMetaData
 
 from .. import __version__
 from ..conditions import use_connect_errors

@@ -14,7 +14,7 @@ from poorwsgi.response import (EmptyResponse, FileResponse, JSONResponse,
                                Response)
 from prusa.connect.printer import __version__ as sdk_version
 from prusa.connect.printer.const import Source, State
-from prusa.connect.printer.metadata import get_metadata
+from gcode_metadata import get_metadata
 from prusa.connect.printer.models import filter_null
 
 from .. import __version__, conditions
